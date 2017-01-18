@@ -14,6 +14,10 @@ class Motor{
       int forwardValue;
       int speedPwm;
       int directionDelay;
+      
+      //Liefert die PWM-Geschwindigkeit in Abhängigkeit von der Richtung zurück
+      int getSpeed(int direction);
+      
       //Liefert den Vorwärtswert;HIGH oder LOW zurück
       int getBackwardsValue();
     public:
